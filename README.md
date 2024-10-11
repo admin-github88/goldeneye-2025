@@ -10,7 +10,7 @@ Attack Vector exploited: HTTP Keep Alive + NoCache
 
 ## Usage
 
-     USAGE: ./goldeneye.py <url> [OPTIONS]
+     USAGE: ./goldeneye.py https://www.google.com
 
      OPTIONS:
         Flag           Description                     Default
