@@ -7,16 +7,9 @@ $Id: $
     /$$__  $$          | $$      | $$                    | $$_____/
    | $$  \__/  /$$$$$$ | $$  /$$$$$$$  /$$$$$$  /$$$$$$$ | $$       /$$   /$$  /$$$$$$
    | $$ /$$$$ /$$__  $$| $$ /$$__  $$ /$$__  $$| $$__  $$| $$$$$   | $$  | $$ /$$__  $$
-   | $$|_  $$| $$  \ $$| $$| $$  | $$| $$$$$$$$| $$  \ $$| $$__/   | $$  | $$| $$$$$$$$mm                            # 
-                                                        # 
-   ##   m mm    mmm   m mm    mmm# 
-  #  #  #"  #  "   #  #"  #  #" "# 
-  #mm#  #   #  m"""#  #   #  #   # 
- #    # #   #  "mm"#  #   #  "#m##
-
-
+   | $$|_  $$| $$  \ $$| $$| $$  | $$| $$$$$$$$| $$  \ $$| $$__/   | $$  | $$| $$$$$$$$
    | $$  \ $$| $$  | $$| $$| $$  | $$| $$_____/| $$  | $$| $$      | $$  | $$| $$_____/
-   |  $$$$$$/|  $$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$  | $$| $$$$$$$$|  $$$$$$$|  $$$$$$$     
+   |  $$$$$$/|  $$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$  | $$| $$$$$$$$|  $$$$$$$|  $$$$$$$
     \______/  \______/ |__/ \_______/ \_______/|__/  |__/|________/ \____  $$ \_______/
                                                                      /$$  | $$
                                                                     |  $$$$$$/
@@ -29,9 +22,10 @@ in order to bring them to their knees by exhausting the resource pool.
 This tool is meant for research purposes only
 and any malicious usage of this tool is prohibited.
 
-@Author ANAND
+@author Anand
 
-@version 2024.10.12
+@date 2024-10-12
+@version 2.4
 
 @TODO Test in python 3.x
 
@@ -69,7 +63,7 @@ JOIN_TIMEOUT = 1.0
 DEFAULT_WORKERS = 10
 DEFAULT_SOCKETS = 500
 
-GOLDENEYE_BANNER = 'GoldenEye v2024.10.12'
+GOLDENEYE_BANNER = 'GoldenEye v2.4 by Anand'
 
 USER_AGENT_PARTS = {
     'os': {
@@ -544,7 +538,7 @@ def usage():
     print()
     print(GOLDENEYE_BANNER)
     print()
-    print(' USAGE: python3 goldeneye.py https://www.google.com/ [OPTIONS]')
+    print(' USAGE: python3 goldeneye.py https://www.google.com/> [OPTIONS]')
     print()
     print(' OPTIONS:')
     print('\t Flag\t\t\tDescription\t\t\t\t\t\tDefault')
