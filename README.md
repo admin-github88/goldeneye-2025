@@ -9,11 +9,13 @@ GoldenEye is an HTTP DoS Test Tool.
 Attack Vector exploited: HTTP Keep Alive + NoCache
 
 ## Usage
+---
 
-     USAGE:
-     ```shell
-     sudo su
-     ```
+Install HTTPX using pip:
+
+```shell
+$ pip install httpx
+```
      git clone https://github.com/admin-github88/goldeneye-2025.git
      cd goldeneye-2025
      chmod 777 *
