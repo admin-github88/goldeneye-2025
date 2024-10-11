@@ -19,11 +19,17 @@ sudo su
 ```shell
 git clone https://github.com/admin-github88/goldeneye-2025.git
 ```
+```shell
 cd goldeneye-2025
+```
+```shell
 chmod 777 *
+```
+```shell
 python3 goldeneye.py https://www.google.com
+```
 
-     OPTIONS:
+OPTIONS:
         Flag           Description                     Default
         -u, --useragents   File with user-agents to use                     (default: randomly generated)
         -w, --workers      Number of concurrent workers                     (default: 50)
