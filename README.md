@@ -11,7 +11,9 @@ Attack Vector exploited: HTTP Keep Alive + NoCache
 ## Usage
 
      USAGE:
+     ```shell
      sudo su
+     ```
      git clone https://github.com/admin-github88/goldeneye-2025.git
      cd goldeneye-2025
      chmod 777 *
