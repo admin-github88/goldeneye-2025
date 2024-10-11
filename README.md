@@ -28,6 +28,7 @@ Attack Vector exploited: HTTP Keep Alive + NoCache
 * res/lists/useragents - Text lists (one per line) of User-Agent strings (from http://www.useragentstring.com)
 
 ## Changelog
+* 2024-10-12  Added support for not verifying SSL Certificate
 * 2016-02-06  Added support for not verifying SSL Certificates
 * 2014-02-20  Added randomly created user agents (still RFC compliant).
 * 2014-02-19  Removed silly referers and user agents. Improved randomness of referers. Added external user-agent list support.
