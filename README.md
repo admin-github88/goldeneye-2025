@@ -14,12 +14,14 @@ Attack Vector exploited: HTTP Keep Alive + NoCache
 Install HTTPX using pip:
 
 ```shell
-$ pip install httpx
+sudo su
 ```
-     git clone https://github.com/admin-github88/goldeneye-2025.git
-     cd goldeneye-2025
-     chmod 777 *
-     python3 goldeneye.py https://www.google.com
+```shell
+git clone https://github.com/admin-github88/goldeneye-2025.git
+```
+cd goldeneye-2025
+chmod 777 *
+python3 goldeneye.py https://www.google.com
 
      OPTIONS:
         Flag           Description                     Default
